@@ -1,0 +1,58 @@
+let pPaises = document.getElementById('pestana-paises');
+let pGrpaises = document.getElementById('pestana-grpaises');
+let pMundo = document.getElementById('pestana-mundo');
+
+let cPaises = document.getElementById('contenido-paises');
+let cGrpaises = document.getElementById('contenido-grpaises');
+let cMundo = document.getElementById('contenido-mundo');
+
+let paisesAbierta = function() {
+  cPaises.style.display = 'flex';
+  cGrpaises.style.display = 'none';
+  cMundo.style.display = 'none';
+  
+  pPaises.style.backgroundColor = '#f5f9fb';
+  pPaises.style.color = '#00bcd4';
+  
+  pGrpaises.style.backgroundColor = '#00bcd4';
+  pGrpaises.style.color = '#f5f9fb';
+  
+  pMundo.style.backgroundColor = '#00bcd4';
+  pMundo.style.color = '#f5f9fb';
+};
+
+let grpaisesAbierta = function() {
+  cPaises.style.display = 'none';
+  cGrpaises.style.display = 'flex';
+  cMundo.style.display = 'none';
+  
+  pGrpaises.style.backgroundColor = '#f5f9fb';
+  pGrpaises.style.color = '#00bcd4';
+  
+  pPaises.style.backgroundColor = '#00bcd4';
+  pPaises.style.color = '#f5f9fb';
+  
+  pMundo.style.backgroundColor = '#00bcd4';
+  pMundo.style.color = '#f5f9fb';
+};
+
+let mundoAbierta = function() {
+  cPaises.style.display = 'none';
+  cGrpaises.style.display = 'none';
+  cMundo.style.display = 'flex';
+  
+  pMundo.style.backgroundColor = '#f5f9fb';
+  pMundo.style.color = '#00bcd4';
+  
+  pPaises.style.backgroundColor = '#00bcd4';
+  pPaises.style.color = '#f5f9fb';
+  
+  pGrpaises.style.backgroundColor = '#00bcd4';
+  pGrpaises.style.color = '#f5f9fb';
+};
+
+
+
+pPaises.addEventListener('click', paisesAbierta);
+pGrpaises.addEventListener('click', grpaisesAbierta);
+pMundo.addEventListener('click', mundoAbierta);

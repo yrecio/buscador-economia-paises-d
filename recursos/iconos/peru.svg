@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg
-	width="900"
-	height="600"
-	xmlns="http://www.w3.org/2000/svg"
-	id="Flag_of_Peru">
-	<rect height="600" width="900" fill="#D91023" x="0" y="0" />
-	<rect height="600" width="300" fill="white" x="300" y="0" />
+<svg version="1.1" id="Flag_of_Peru" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="650px" height="500px" viewBox="125 50 650 500" enable-background="new 125 50 650 500" xml:space="preserve">
+<rect x="68" y="38.667" fill="#D91023" width="784" height="522.667"/>
+<rect x="329.333" y="38.667" fill="#FFFFFF" width="261.333" height="522.667"/>
 </svg>

@@ -17,6 +17,7 @@ body {
 	html{
 		font-size: 10px;
 	}
+	
 }
 
 /*--------------- Buscador: generalidades ---------------*/
@@ -47,12 +48,6 @@ a:hover{
 
 a:active{
   color: #007d8d;
-}
-
-@media (max-width: 400px){
-	h2{
-		font-size: 1.2rem;
-	}	
 }
 
 /*--------------- Pestañas superiores del buscador ---------------*/
