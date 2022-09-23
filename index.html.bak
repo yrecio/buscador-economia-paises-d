@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<link type="text/css" rel="stylesheet" href="./recursos/css/estilos.css">
+
+</head>
+<body>
+	<header>
+		</h2>Consultar datos macroeconómicos de países y regiones</h2>
+	</header>
+	<section id="panel">
+		<div class="pestana">Países</div>
+		<div class="pestana">Grupos de países</div>
+		<div class="pestana">Mundo</div>
+	</section>
+</body>
+</html>
